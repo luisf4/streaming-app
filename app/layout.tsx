@@ -23,9 +23,9 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <ThemeProvider
-          attribute='class'
-          forcedTheme='dark'
-          storageKey='gamehub-theme'
+            attribute='class'
+            forcedTheme='dark'
+            storageKey='gamehub-theme'
           >
             {children}
           </ThemeProvider>
