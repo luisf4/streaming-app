@@ -12,7 +12,7 @@ export const Logo = () => {
     return (
         <Link href="/">
             <div className="flex items-center gap-x-4 hover:opacity-80 transition">
-                <div className="bg-white rounded-full p-1 mr-12 shrink-0 lg:mr-0 lg:shrink">
+                <div className="bg-white rounded-full p-1 mr-12 ml-3 shrink-0 lg:mr-0 lg:shrink">
                     <Image
                         src="/spooky.svg"
                         alt="Logo" width={50}
